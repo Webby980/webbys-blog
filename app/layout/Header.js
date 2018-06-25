@@ -37,7 +37,7 @@ class Header extends React.Component {
               }}
               src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAU3AAAAJGE1MzYxNzYzLTE1NTUtNDEyYi04MzRjLTgzZjNkOGU0MGIzNg.jpg"
               width="30px" alt="" />
-            <span>AaronKlaser.com</span>
+            <span>Webby</span>
           </a>
           <button className="button navbar-burger" onClick={this.toggleNav}>
             <span></span>
@@ -78,22 +78,22 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="navbar-end">
-            <a className="navbar-item" href="https://github.com/aaronklaser">
+            <a className="navbar-item" href="https://github.com/Webby980">
               <span className="icon">
                 <i className="fab fa-lg fa-github"></i>
               </span>
             </a>
-            <a className="navbar-item" href="https://twitter.com/awklaser">
+            {/* <a className="navbar-item" href="<twitter_profile>">
               <span className="icon has-text-info" style={{ color: '#0084FF' }}>
                 <i className="fab fa-lg fa-twitter"></i>
               </span>
-            </a>
-            <a className="navbar-item" href="http://resume.aaronklaser.com">
+            </a> */}
+            {/* <a className="navbar-item" href="<linkedin_profile>">
               Resume
               <span className="icon" style={{ color: '#0077B5', marginLeft: 5 }}>
                 <i className="fab fa-lg fa-linkedin"></i>
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>
